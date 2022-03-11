@@ -1,3 +1,10 @@
+import "https://github.com/ssccrypto/library/blob/4dbf228f09df842e12e993728b42ff649a460385/SafeMath.sol";
+import "https://github.com/ssccrypto/library/blob/4dbf228f09df842e12e993728b42ff649a460385/Auth.sol";
+import "https://github.com/ssccrypto/library/blob/4dbf228f09df842e12e993728b42ff649a460385/BEP20.sol";
+import "https://github.com/ssccrypto/library/blob/4dbf228f09df842e12e993728b42ff649a460385/IBEP20.sol";
+import "https://github.com/ssccrypto/library/blob/4dbf228f09df842e12e993728b42ff649a460385/IDEXFactory.sol";
+import "https://github.com/ssccrypto/library/blob/4dbf228f09df842e12e993728b42ff649a460385/IDEXRouter.sol";
+
 pragma solidity ^0.7.4;
 
 contract DEGENNANO is IBEP20, Auth {
