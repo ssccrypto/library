@@ -1,3 +1,7 @@
+//SPDX-License-Identifier: Unlicensed
+
+pragma solidity ^0.7.4;
+
 contract DEGENNANO is IBEP20, Auth {
     using SafeMath for uint256;
     
